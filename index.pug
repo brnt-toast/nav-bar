@@ -1,0 +1,23 @@
+doctype html
+html(lang=en)
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    
+    link(rel='stylesheet' href='index.sass')
+
+    title #{title}
+
+    body
+        header
+            nav
+                span home
+                ul.nav_items
+                    - for(let i = 0; i< 3; i++)
+                        li.nav_item nav_item
+                button Sign Up
+            h1 hello world
+        main
+        aside
+        footer

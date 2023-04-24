@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel index.pug"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,10 @@
   "dependencies": {
     "pug": "^3.0.2",
     "sass": "^1.62.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
   }
 }
